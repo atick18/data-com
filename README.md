@@ -1,13 +1,13 @@
 # data-com
 
 % Parameters
-Fs = 10000;             % Sampling frequency (Hz)
-t = 0:1/Fs:0.01;        % Time vector (10 ms)
-fc = 1000;              % Carrier frequency (Hz)
-fm = 100;               % Message frequency (Hz)
-Am = 1;                 % Message amplitude
-Ac = 1;                 % Carrier amplitude
-kf = 2 * pi * 75;       % Frequency sensitivity (rad/s per unit amplitude)
+Fs = 10000;             
+t = 0:1/Fs:0.01;       
+fc = 1000;             
+fm = 100;              
+Am = 1;                 
+Ac = 1;                
+kf = 2 * pi * 75;      
 
 % Message signal
 m = Am * cos(2 * pi * fm * t);
